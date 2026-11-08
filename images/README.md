@@ -1,5 +1,9 @@
 # images/
 
+**Dočasně** (2026-11-08): `app-icon.svg` a PNG sada jsou zástupná ikona —
+obecná ikona dema svision (`svision-tutorial/demos/demo/atari8`), ne grafika
+jiné hry. Vlastní ikonu z grafiky originálu dostane projekt v M7.
+
 **Prázdné až na tenhle soubor.** Ikony aplikace, favicon a poster patří do
 **M7** a vyrábějí se nástroji ze svision, ne ručně:
 
