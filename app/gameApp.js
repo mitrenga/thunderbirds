@@ -90,11 +90,6 @@ export class GameApp extends AbstractApp {
     // Extra glyphs + hard/short spaces live in the game (svision core fonts are ASCII + normal space).
     this.fonts.fonts5x5.addSpace('␣', {width: 2, breaking: false, stretch: true});
 
-    this.fonts.zxFonts8x8.addGlyphs('⋅', '0000000030000000');
-    // the 16 x 16 close cross of the panel button (GameInfoEntity.pauseButton):
-    // a bold X, symmetric about both axes, in four 8 x 8 quarters — top left,
-    // top right, bottom left, bottom right — set as two lines of two glyphs
-    this.fonts.zxFonts8x8Mono.addGlyphs('◰◳◱◲', '3078FC7E3F1F0F070C1E3F7EFCF8F0E0070F1F3F7EFC7830E0F0F8FC7E3F1E0C');
     this.fonts.zxFonts8x8.addSpace('␣', {width: 3, breaking: false, stretch: false});
     this.fonts.zxFonts8x8.addSpace('▭', {width: 4, breaking: false, stretch: false});
 
